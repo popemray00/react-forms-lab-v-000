@@ -9,7 +9,7 @@ class TwitterMessage extends React.Component {
 
   handleChange = e => {
     this.setState({
-      value: e.target.value
+      value: e.target.value,
     })
   }
 
