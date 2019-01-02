@@ -7,13 +7,13 @@ class TwitterMessage extends React.Component {
     this.state = {value: ''};
   }
 
-  
+
 
   render() {
     return (
       <div>
         <strong>Your message:</strong>
-        <input type="text" value={this.state.value}  />
+        <input type="text" value={this.state.value} onChange={this.handleChange}  />
       </div>
     );
   }
