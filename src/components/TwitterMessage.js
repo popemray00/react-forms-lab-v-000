@@ -13,6 +13,10 @@ class TwitterMessage extends React.Component {
     });
   }
 
+  charCounter = () => {
+    
+  }
+
 
 
   render() {
